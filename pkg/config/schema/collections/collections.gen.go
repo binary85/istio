@@ -272,9 +272,9 @@ var (
 	}.MustBuild()
 
 	// K8SApiextensionsK8SIoV1Beta1Customresourcedefinitions describes the
-	// collection k8s/apiextensions.k8s.io/v1beta1/customresourcedefinitions
+	// collection k8s/apiextensions.k8s.io/v1/customresourcedefinitions
 	K8SApiextensionsK8SIoV1Beta1Customresourcedefinitions = collection.Builder{
-		Name:         "k8s/apiextensions.k8s.io/v1beta1/customresourcedefinitions",
+		Name:         "k8s/apiextensions.k8s.io/v1/customresourcedefinitions",
 		VariableName: "K8SApiextensionsK8SIoV1Beta1Customresourcedefinitions",
 		Disabled:     false,
 		Resource: resource.Builder{
